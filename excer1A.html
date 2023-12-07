@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercicio 1A</title>
+</head>
+<body>
+    <script>
+    //1.a) Mostre os números de 1 a 50 na tela, dizendo se é par ou ímpar:
+    
+        function mostra (frase) {
+            
+            document.write(frase);
+            document.write("<br>");
+        }
+
+        for(var inicio = 1; inicio <= 50; inicio = inicio + 1) {
+            
+            if (inicio % 2 == 0){
+                mostra(inicio + " é par")
+            }
+            else {
+                mostra(inicio + " é impar")
+            }
+        }
+        mostra(inicio)
+
+    </script>
+</body>
+</html>
